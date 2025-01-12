@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { type PageRouteProps} from '@/interface/index'
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
 
   // Imeperative routing with useRouter
   const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
